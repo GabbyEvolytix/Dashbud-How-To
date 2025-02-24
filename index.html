@@ -5,40 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evolytix Walkthrough</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Evolytix Walkthrough</h1>
-        <nav>
-            <ul>
-                <li><a href="#login">Login</a></li>
-                <li><a href="#import-data">Import Data</a></li>
-                <li><a href="#ai-insights">AI Insights</a></li>
-                <li><a href="#reports">Reports</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="login">
-        <h2>Logging In</h2>
-        <p>Users log in using their username and password.</p>
-    </section>
-
-    <section id="import-data">
-        <h2>Importing Data</h2>
-        <p>Users can upload CSV files and preview the dataset.</p>
-    </section>
-
-    <section id="ai-insights">
-        <h2>AI Insights</h2>
-        <p>Users can chat with Dashbud AI to analyze their data.</p>
-    </section>
-
-    <section id="reports">
-        <h2>Generating Reports</h2>
-        <p>Users can create visual reports from datasets.</p>
-    </section>
+    <div id="sidebar">
+        <h2>Evolytix Guide</h2>
+        <ul>
+            <li><a href="#introduction">🏠 Introduction</a></li>
+            <li><a href="#login">🔐 Logging In</a></li>
+            <li><a href="#import-data">📂 Importing Data</a></li>
+            <li><a href="#ai-insights">🤖 AI Insights</a></li>
+            <li><a href="#reports">📊 Reports & Visuals</a></li>
+        </ul>
+    </div>
     
-    <script src="script.js"></script>
+    <div id="content">
+        <section id="introduction">
+            <h2>Welcome to the Evolytix Walkthrough</h2>
+            <p>This guide will help you navigate through the key features of Evolytix.</p>
+        </section>
+
+        <section id="login">
+            <h2>Logging In</h2>
+            <p>Users log in using their username and password.</p>
+            <img src="assets/login-screen.png" alt="Login screen">
+        </section>
+
+        <section id="import-data">
+            <h2>Importing Data</h2>
+            <p>To upload data, follow these steps:</p>
+            <img src="assets/import-step1.png" alt="Import Step 1">
+            <p>Click the "New Import" button.</p>
+            <input type="file" id="csvFileInput" accept=".csv">
+            <table id="csvTable"></table>
+        </section>
+
+        <section id="ai-insights">
+            <h2>Using Dashbud AI</h2>
+            <p>Click the button to ask AI for insights.</p>
+            <button onclick="showAIMessage()">Ask AI</button>
+            <div id="ai-response"></div>
+        </section>
+
+        <section id="reports">
+            <h2>Data Visualization</h2>
+            <canvas id="dataChart"></canvas>
+        </section>
+    </div>
 </body>
 </html>
