@@ -52,18 +52,17 @@ footer {
 }
 
 #sidebar {
-    width: 250px;  /* Set a fixed width */
-    height: 100vh;  /* Full height */
+    width: 250px;  
+    height: 100vh;  
     position: fixed;
     left: 0;
     top: 0;
-    background: #2c3e50;  /* Dark blue */
+    background: #2c3e50;  
     color: white;
     padding: 20px;
-    overflow-y: auto;  /* Allows scrolling if needed */
-    z-index: 1000;  /* Keeps it above content */
+    overflow-y: auto; 
+    z-index: 1000;  
 }
-
 #sidebar ul {
     list-style: none;
     padding: 0;
