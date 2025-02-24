@@ -5,48 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evolytix Walkthrough</title>
     <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
 </head>
 <body>
     <div id="sidebar">
         <h2>Evolytix Guide</h2>
         <ul>
-            <li><a href="#introduction">🏠 Introduction</a></li>
-            <li><a href="#login">🔐 Logging In</a></li>
-            <li><a href="#import-data">📂 Importing Data</a></li>
-            <li><a href="#ai-insights">🤖 AI Insights</a></li>
-            <li><a href="#reports">📊 Reports & Visuals</a></li>
+            <li><a href="#connect">🔗 Connect</a></li>
+            <ul>
+                <li><a href="#connection-strings">Connection Strings</a></li>
+                <li><a href="#imports">Imports</a></li>
+                <li><a href="#blueprints">Blueprints</a></li>
+            </ul>
+            <li><a href="#transform">🔄 Transform</a></li>
+            <ul>
+                <li><a href="#datasets">Datasets</a></li>
+                <li><a href="#conversations">Conversations</a></li>
+            </ul>
+            <li><a href="#visualize">📊 Visualize</a></li>
+            <ul>
+                <li><a href="#charts">Charts</a></li>
+                <li><a href="#dashboards">Dashboards</a></li>
+                <li><a href="#menu-designer">Menu Designer</a></li>
+            </ul>
         </ul>
     </div>
     
     <div id="content">
         <section id="introduction">
             <h2>Welcome to the Evolytix Walkthrough</h2>
-            <p>This guide will help you navigate through the key features of Evolytix.</p>
+            <p>Evolytix is a powerful platform designed to help users manage, analyze, and visualize their data efficiently. 
+               This guide provides a step-by-step walkthrough of key features, including data import, AI-driven insights, and reporting tools.
+               Navigate through the sections to explore each functionality in detail.</p>
         </section>
 
-        <section id="login">
-            <h2>Logging In</h2>
-            <p>Users log in using their username and password.</p>
-            <img src="assets/login-screen.png" alt="Login screen">
+        <section id="connect">
+            <h2>Connect</h2>
+            <img src="assets/connect.png" alt="Connect Features">
+            <p>The Connect section allows users to set up database connections, import external data files, and define schemas for data processing.</p>
+            
         </section>
 
-        <section id="import-data">
-            <h2>Importing Data</h2>
-            <p>To upload data, follow these steps:</p>
-            <img src="assets/import-step1.png" alt="Import Step 1">
-            <p>Click the "New Import" button.</p>
-            <input type="file" id="csvFileInput" accept=".csv">
-            <table id="csvTable"></table>
+        <section id="transform">
+            <h2>Transform</h2>
+            <img src="assets/transform.png" alt="Transform Features">
+            <p>The Transform section enables users to manage datasets, use AI for dataset generation, and refine data for analysis.</p>
         </section>
 
-        <section id="ai-insights">
-            <h2>Using Dashbud AI</h2>
-        </section>
-
-        <section id="reports">
-            <h2>Data Visualization</h2>
-            <canvas id="dataChart"></canvas>
+        <section id="visualize">
+            <h2>Visualize</h2>
+            <img src="assets/visualize.png" alt="Visualize Features">
+            <p>The Visualize section allows users to create charts, dashboards, and customize menu structures for data representation.</p>
+        
         </section>
     </div>
 </body>
