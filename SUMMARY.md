@@ -1,5 +1,5 @@
 # Summary
 
 * [Home](README.md)
-* [Guide](index.html)
+* [Guide](index.md)
 * [Styles](styles.css)
