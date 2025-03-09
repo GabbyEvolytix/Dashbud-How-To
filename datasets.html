@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigating the Datasets Page - Evolytix Walkthrough</title>
+    <title>Datasets Documentation - Evolytix Walkthrough</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -33,39 +33,56 @@
 
     <div id="content">
         <section id="datasets">
-            <h2>Navigating the Datasets Page</h2>
-            <p>This section walks through the different features of the datasets page.</p>
-
-            <h3>Step 1: Opening the Datasets Page</h3>
+            <h2>Datasets Overview</h2>
+            <p>The Datasets Page is the central hub for managing imported datasets in Evolytix. Users can search, manage, share, export, and delete datasets while keeping track of metadata.</p>
+            
+            <h3>1. Main Datasets View</h3>
             <img src="assets/datasets1.png" alt="Datasets Main Page">
-            <p> When the user first clicks the "Datasets" option, this is the page they will see. It displays all available datasets with metadata such as the author and date modified.</p>
+            <p>This is the main page where all datasets are listed. Users can view essential details such as dataset name, author, modification date, and connection string.</p>
 
-            <h3>Step 2: Accessing Dataset Options</h3>
+            <h3>2. Searching and Filtering</h3>
+            <img src="assets/datasets1.png" alt="Dataset Search">
+            <p>Users can type in the **search bar** to filter through datasets dynamically, making it easier to locate specific data entries.</p>
+
+            <h3>3. Dataset Options Menu</h3>
             <img src="assets/datasets2.png" alt="Dataset Options">
-            <p> Clicking on the three lines next to a dataset opens a menu with different options, including renaming, deleting, exporting, and viewing more details.</p>
+            <p>Clicking the **three-line menu** beside a dataset provides multiple options, including:</p>
+            <ul>
+                <li><strong>Share</strong> - Grant access to other users.</li>
+                <li><strong>Export</strong> - Download the dataset in a structured format.</li>
+                <li><strong>Rename</strong> - Modify the dataset name.</li>
+                <li><strong>More Info</strong> - View dataset metadata.</li>
+                <li><strong>Delete</strong> - Remove the dataset permanently.</li>
+            </ul>
 
-            <h3>Step 3: Sharing a Dataset</h3>
-            <img src="assets/datasets3.png" alt="Dataset Sharing">
-            <p> Users can share their dataset to collaborate with others. This is the interface they see when selecting the "Share" option.</p>
+            <h3>4. Sharing Datasets</h3>
+            <img src="assets/datasets3.png" alt="Sharing Datasets">
+            <p>Users can **select recipients** to share datasets with, apply filters, and manage access permissions for collaboration.</p>
 
-            <h3>Step 4: Exporting a Dataset</h3>
+            <h3>5. Exporting a Dataset</h3>
             <img src="assets/datasets8.png" alt="Export Dataset">
-            <p> To export a dataset, users can select the export option from the menu.</p>
+            <p>Exporting allows users to download the dataset in different formats such as **CSV, JSON, or SQL**, enabling offline analysis or integration with other platforms.</p>
 
-            <h3>Step 5: Renaming a Dataset</h3>
+            <h3>6. Renaming a Dataset</h3>
             <img src="assets/datasets4.png" alt="Rename Dataset">
-            <p> Users can rename a dataset to improve organization. Clicking the rename option will prompt them to enter a new dataset name.</p>
+            <p>Users can rename datasets to enhance organization. The system prevents duplicate names and ensures clarity in dataset identification.</p>
 
-            <h3>Step 6: Viewing Dataset Information</h3>
+            <h3>7. Viewing Dataset Metadata</h3>
             <img src="assets/datasets5.png" alt="More Info on Dataset">
-            <p> Clicking "More Info" allows users to view all the data inside a dataset, including the table structure and records.</p>
+            <p>Clicking **More Info** displays additional dataset details, including its structure, query, and author metadata.</p>
 
             <img src="assets/datasets6.png" alt="Dataset Metadata">
-            <p> Additional dataset information includes the query used to generate it and details about the dataset author.</p>
+            <p>Metadata includes:</p>
+            <ul>
+                <li>SQL query used for dataset creation</li>
+                <li>Author and timestamp information</li>
+                <li>Connection string used for data import</li>
+            </ul>
 
-            <h3>Step 7: Deleting a Dataset</h3>
+            <h3>8. Deleting a Dataset</h3>
             <img src="assets/datasets7.png" alt="Delete Dataset">
-            <p> If a user chooses to delete a dataset, they will see a confirmation screen before finalizing, preventing accidental deletions.</p>
+            <p>If a dataset is no longer needed, users can delete it permanently. A confirmation prompt ensures no accidental deletions occur.</p>
+
         </section>
     </div>
 </body>
